@@ -23,7 +23,7 @@ sleep(0.5)
 puts "Stop"
 sleep(1)
 sleep(0.5)
-puts "right fott steps right and back"
+puts "right foot steps right and back"
 puts "left foot crosses over right"
 puts "Right foot steps right"
 puts "Turn"
