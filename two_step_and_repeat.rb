@@ -33,6 +33,10 @@ def how_many_steps?
   steps = 0
   steps += 1
   puts steps
+  if steps %2 
+    puts left
+  else right
+  sleep(0.5)
   sleep(0.5)
   # Write a loop that fulfills all criteria from Part 3 of the README.md
 end
@@ -41,6 +45,9 @@ def break_dance
    steps = 0
   steps += 1
   puts steps
+  if steps %2 
+    puts left
+  else right
   sleep(0.5)
   if steps == 6
     break
