@@ -38,7 +38,6 @@ def how_many_steps?
   puts steps
   while steps %2 
     puts left
-  else right
   sleep(0.5)
   
   # Write a loop that fulfills all criteria from Part 3 of the README.md
@@ -50,7 +49,6 @@ def break_dance
   puts steps
   while steps %2 
     puts left
-  else right
   sleep(0.5)
   until steps == 6
     break
