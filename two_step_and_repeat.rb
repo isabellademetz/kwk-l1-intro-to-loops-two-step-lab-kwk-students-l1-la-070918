@@ -42,7 +42,7 @@ def break_dance
   steps += 1
   puts steps
   sleep(0.5)
-  if steps = 6
+  if steps == 6
     break
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
