@@ -1,4 +1,5 @@
 def first_steps
+  loop do
   puts "Right foot back"
 sleep(0.5)
 puts "Left foot back"
@@ -12,6 +13,7 @@ sleep(1)
 end
 
 def a_few_more_steps
+  loop do
   puts "Right foot back"
 sleep(0.5)
 puts "Left foot back"
@@ -30,6 +32,7 @@ sleep(1)
 end
 
 def how_many_steps?
+ loop do
   steps = 0
   steps += 1
   puts steps
@@ -45,11 +48,11 @@ def break_dance
    steps = 0
   steps += 1
   puts steps
-  if steps %2 
+  while steps %2 
     puts left
   else right
   sleep(0.5)
-  if steps == 6
+  until steps == 6
     break
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
